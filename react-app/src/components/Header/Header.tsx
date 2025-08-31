@@ -1,21 +1,26 @@
+
 import Logo from "../Logo"
 import "./Header.css"
+
+import Profile from "../Profile"
 
 
 function Header(){
 
+
+
+
+
     return (
+    
     <header>
-        
         <Logo />
-        <div>
         
-        <a href="">Store</a>
-        <a href="">Library</a>
-        <a href="#">About</a>
-        <a href="#">Settings</a>
-        </div>
+       <Profile/>
     </header>
+        
+        
+        
 
     )
 }
