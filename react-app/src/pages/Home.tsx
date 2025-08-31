@@ -1,3 +1,4 @@
+import SearchBar from "../components/SearchBar/SearchBar";
 
 
 export default function Home(){
@@ -5,8 +6,9 @@ export default function Home(){
 
     return(
 
-        <div>
+        <main>
+            <SearchBar/>
             Home dayo~
-        </div>
+        </main>
     )
 }
