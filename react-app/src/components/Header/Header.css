@@ -4,7 +4,9 @@ header{
     justify-content: space-evenly;
     align-items: center;
     background-color: hsla(0, 0%, 20%, 0.808);
-    padding: 16px 8px ;
+    padding: 8px 8px ;
+    border: 2px solid black;
+    border-width: 2px 0;
 }
 
 #logo{
