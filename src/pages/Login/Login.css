@@ -1,7 +1,7 @@
 .login-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
+
   font-size: 1.1rem;
   width: 20em;
   padding: 1em 2em;
@@ -12,15 +12,17 @@
 }
 
 .login-container h2 {
+  color: hsl(0, 0%, 15%);
   margin-top: 0.3em;
   margin-bottom: 1em;
+  text-align: center;
 }
 
 .login-container input {
   font-size: 1.05rem;
-  margin-top: 3px;
+  margin-top: 5px;
   padding: 0.4em;
-  width: 100%;
+  outline-color: rgb(0, 98, 255);
 }
 
 .login-container button {
@@ -35,6 +37,7 @@
   margin: 0 3px 3px 0;
   box-shadow: 3px 3px 1px black;
   transition: all 0.05s;
+  outline: none;
 }
 
 .login-container button:hover {
@@ -44,4 +47,8 @@
 .login-container button:active {
   margin: 3px 0 0 3px;
   box-shadow: none;
+}
+
+.login-container button:focus {
+  background-color: rgb(107, 0, 237);
 }
