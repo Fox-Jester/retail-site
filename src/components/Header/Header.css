@@ -1,58 +1,42 @@
-
-header{
-    display: flex;
-   justify-content: space-between;
-    align-items: center;
-    background-color: hsla(0, 0%, 20%, 0.808);
-    padding: 4px 12px ;
-    border: 2px solid black;
-    border-width: 2px 0;
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: hsla(0, 0%, 20%, 0.808);
+  padding: 4px 12px;
+  border: 2px solid black;
+  border-width: 2px 0;
 }
 
-#logo{
-    background: hsl(0, 0%, 15%);
-    border-radius: 20px;
-    padding: 8px 12px;
+#logo {
+  background: hsl(0, 0%, 15%);
+  border-radius: 20px;
+  padding: 8px 12px;
 }
 
-#logo, #logo span{
-    font-size: 1.3rem;
-    text-shadow: 1px 1px 0 hsl(0, 0%, 15%);
-    text-decoration: none;
-    font-family: "Space Grotesk", sans-serif;
+#logo,
+#logo span {
+  font-size: 1.3rem;
+  text-shadow: 1px 1px 0 hsl(0, 0%, 15%);
+  text-decoration: none;
+  font-family: "Space Grotesk", sans-serif;
 }
 
-.blue-highlight{
-    color: aqua;
+.blue-highlight {
+  color: aqua;
 }
 
-.pink-highlight{
-    color: rgb(255, 18, 136);
+.pink-highlight {
+  color: rgb(255, 18, 136);
 }
 
-a{
-    color: white;
-    font-size: 1.1rem;
-
+a {
+  color: white;
+  font-size: 1.1rem;
 }
 
-#account-group{
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-    
+.header-group {
+  display: flex;
+  gap: 1em;
+  align-items: center;
 }
-
-#account-group svg{
-    color: white;
-    font-size: 1.4rem;
-    margin-right: 5px;
-}
-
-#account-group span{
-    text-align: center;
-    color: rgb(255, 255, 141);
-    font-size: 0.9rem;
-
-}
-
