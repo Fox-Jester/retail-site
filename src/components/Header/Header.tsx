@@ -2,7 +2,8 @@
 import Logo from "../Logo"
 import "./Header.css"
 
-import Profile from "../Profile"
+import ProfileIcon from "../ProfileIcon/ProfileIcon"
+import { Link } from "react-router-dom"
 
 
 function Header(){
@@ -14,9 +15,11 @@ function Header(){
     return (
     
     <header>
-        <Logo />
+       
+        <Logo /> 
+       <ProfileIcon/>
         
-       <Profile/>
+      
     </header>
         
         
