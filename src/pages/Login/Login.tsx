@@ -31,7 +31,9 @@ export default function Login() {
         <input type="password" id="confirm-input" />
         <br />
 
-        <button type="submit">Sign in</button>
+        <div className="center-container">
+          <button type="submit">Sign in</button>
+        </div>
       </motion.form>
     </main>
   );

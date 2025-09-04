@@ -38,9 +38,11 @@
   box-shadow: 3px 3px 1px black;
   transition: all 0.05s;
   outline: none;
+  width: 6em;
 }
 
-.login-container button:hover {
+.login-container button:hover,
+.login-container button:focus {
   background-color: rgb(107, 0, 237);
 }
 
@@ -49,6 +51,6 @@
   box-shadow: none;
 }
 
-.login-container button:focus {
-  background-color: rgb(107, 0, 237);
+.login-container .center-container {
+  margin-top: 10px;
 }
